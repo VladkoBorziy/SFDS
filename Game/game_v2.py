@@ -1,7 +1,7 @@
 import numpy as np
 
 def random_predict(number:int=1) -> int:
-    """Рандомно угадываем число
+    """Рандомно угадываем число за 20 попыток
 
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
@@ -11,13 +11,19 @@ def random_predict(number:int=1) -> int:
     """
 
     count = 0
+    min = 1
+    max = 101
+    predict = (min + max)//2
 
-    while True:
+    while number != predict:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
-        if number == predict_number:
-            break # выход из цикла, если угадали
-    return(count)
+        if number > predict:
+            min = predict + 1
+        else:
+            max = predict -1
+        predict = (min + max)//2
+    return count
+
 
 print(f'Количество попыток: {random_predict()}')
 
