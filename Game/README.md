@@ -1,11 +1,11 @@
 # Проект 0. Угадай число
 
 ## Оглавление
-[1. Описание проекта](https://github.com/VladkoBorziy/SFDS/blob/main/Game/README.md#Описание_проекта)
-[2. Какой кейс решаем?](https://github.com/VladkoBorziy/SFDS/blob/main/Game/README.md#Какой_кейс_решаем)
-[3. Краткая информация о данных](https://github.com/VladkoBorziy/SFDS/blob/main/Game/README.md#Краткая_информация_о_данных)
-[4. Этапы работы над проектом]()
-[5. Результат]()
+[1. Описание проекта](https://github.com/VladkoBorziy/SFDS/blob/main/Game/README.md#Описание_проекта)\
+[2. Какой кейс решаем?](https://github.com/VladkoBorziy/SFDS/blob/main/Game/README.md#Какой_кейс_решаем)\
+[3. Краткая информация о данных](https://github.com/VladkoBorziy/SFDS/blob/main/Game/README.md#Краткая_информация_о_данных)\
+[4. Этапы работы над проектом]()\
+[5. Результат]()\
 [6. Выводы]()
 
 ### Описание проекта
